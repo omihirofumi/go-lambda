@@ -1,4 +1,4 @@
-lambda:
+lambda: main.go
 	GOOS=linux GOARCH=amd64 go build -o lambda ./
 
 zip: lambda
